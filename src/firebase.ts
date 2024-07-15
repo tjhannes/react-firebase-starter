@@ -3,12 +3,12 @@ import "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.firebase_key,
+  apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: "redi-demo-38743.firebaseapp.com",
   projectId: "redi-demo-38743",
   storageBucket: "redi-demo-38743.appspot.com",
   messagingSenderId: "13192301857",
-  appId: import.meta.env.app_id,
+  appId: import.meta.env.APP_ID,
 };
 
 // Initialize Firebase
